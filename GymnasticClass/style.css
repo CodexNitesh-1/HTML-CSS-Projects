@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.background{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+}
+.background .left{
+    background-color: rgb(51,67,86);
+    height: 95vh;
+    width: 45vw;
+}
+.background img{
+    position: relative;
+    top: 115px;
+    width: 40vw;
+    height: 90vh;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 35px;
+    font-weight: 900;
+}
+.main .logo a{
+    font-size: 35px;
+    color: rgb(243,156,191);
+    text-decoration: none;
+}
+.main span a{
+    color: black;
+    margin: 15px;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navBar span a:hover{
+    border-bottom: 4px solid rgb(243,156,191);
+}
+.body{
+    color: white;
+    font-size: 90px;
+    margin: 150px 150px 55px 150px;
+}
+.body h1{
+    margin: 10px;
+}
+.body h5{
+    margin: 10px;
+}
+.body div{
+    position: relative;
+    left: 120px;
+    padding: 25px;
+    margin: 30px 30px 0px 30px;
+    font-weight: 700;
+    font-size: 25px;
+    height: 90px;
+    width: 350px;
+    background-color: white;
+    color: rgb(51,67,86);
+}
+.body button{
+    color: white;
+    background-color: rgb(214,127,154);
+    border: 1px solid rgb(214,127,154);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 25px;
+    position: relative;
+    bottom: 22px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    width: 99.2vw;
+    height: 300px;
+    background-color: rgb(16,15,24);
+    color: white;
+}
+.footer div{
+    margin: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer div h1{
+    font-size: 100px;
+}
+.footer div p{
+    padding: 30px;
+    font-size: 25px;
+}
