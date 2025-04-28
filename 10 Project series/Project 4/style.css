@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landing-view{
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+    height: 100vh;
+    background-image: url(developer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.landing-view h2 span{
+    font-size: 30px;
+}
+.landing-view h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+.second{
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 40px 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+}
+.second span{
+    font-weight: 900;
+    font-size: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    transition: 0.3s ease-in-out;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+}
+.card:hover{
+    transform: scale(1.04);
+    transition: 0.3s ease-in-out;
+}
+.card h2{
+    margin: 10px;
+}
+.card p{
+    margin: 10px;
+}
+.colorfull{
+    color: white;
+    display: flex;
+}
+.colorfull .contact{
+    width: 100%;
+    background-color: rgb(70,75,17);
+    height: 350px;
+}
+.colorfull .about{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(96,37,12);
+}
+.colorfull p{
+    margin: 10px;
+    font-size: 20px;
+}
+.colorfull h1{
+    font-size: 50px;
+    margin: 10px;
+}
+.content{
+    margin: 20px;
+}
+footer{
+    word-spacing: 7px;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(17,17,17);
+}
+
+
+
+@media(max-width: 1063px){
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .colorfull{
+        flex-direction: column;
+    }
+    .second{
+        font-size: 30px;
+        word-spacing: 0px;
+    }
+    .second span{
+        font-size: 60px;
+    }
+}
+@media(max-width: 534px){
+    .landing-view{
+        font-size: 30px;
+    }
+    .landing-view h2 span{
+        font-size: 20px;
+    }
+    .landing-view h1{
+        font-size: 50px;
+    }
+    footer{
+        font-size: 30px;
+    }
+}
